@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ARIPA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Dea Delvinata Riyan</string>
+    <string name="nav_header_subtitle">DeaDelvinata@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_go">Go</string>
+    <string name="baking_title">Baking with Gemini</string>
+    <string name="label_prompt">Prompt</string>
+    <string name="prompt_placeholder">Provide a recipe for the baked goods in the image</string>
+    <string name="image1_description">Cupcake</string>
+    <string name="image2_description">Cookies</string>
+    <string name="image3_description">Cake</string>
+    <string name="results_placeholder">(Results will appear here)</string>
+    <string name="faq_title">FAQ</string>
+    <string name="how_can_we_help">Bagaimana Kami Membantu Anda ?</string>
+    <string name="enter_keyword">Enter your keyword</string>
+    <string name="top_questions">Top Questions</string>
+    <string name="faq_icon_description">Question and Answer Icon</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aripa_description">
+        <b>Asisten Riset dan Instalasi Terpadu FMIPA (ARIPA)</b> Unila adalah aplikasi mobile inovatif yang dirancang khusus untuk memenuhi kebutuhan mahasiswa Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) Universitas Lampung. Didukung oleh kecanggihan GEMINI AI, ARIPA berfungsi sebagai asisten cerdas yang komprehensif. Aplikasi ini tidak hanya memberikan panduan riset yang mendalam, mulai dari pencarian literatur hingga metodologi, tetapi juga membantu instalasi perangkat lunak atau perangkat keras penting untuk perkuliahan. Lebih dari itu, ARIPA menyajikan informasi terkini seputar fasilitas kampus, jadwal akademik, agenda seminar, hingga beragam kegiatan kemahasiswaan. Dengan AI ARIPA yang adaptif, aplikasi ini berkomitmen untuk menyederhanakan proses belajar dan penelitian, memastikan mahasiswa memiliki akses cepat ke sumber daya relevan demi kesuksesan akademik mereka di FMIPA Unila.
+    </string>
+
+
+    <string name="fmipa_title">Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)</string>
+    <string name="fmipa_combined_description">
+        <b>Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) Universitas Lampung</b> didirikan sebagai respons atas kebutuhan universitas untuk mengembangkan ilmu-ilmu dasar sebagai penopang kemajuan sains. Perjalanan dimulai pada 6 Mei 1986 dengan pembentukan Panitia Persiapan FMIPA, yang kemudian menginisiasi program studi Biologi dan Kimia pada 13 Februari 1989 di bawah administrasi Fakultas Pertanian, namun bertanggung jawab langsung kepada Rektor. Setelah melalui penyempurnaan organisasi, pengembangan laboratorium, dan persiapan pembukaan program studi Fisika serta Matematika, FMIPA secara resmi berdiri pada 15 November 1995 melalui SK Menteri Pendidikan dan Kebudayaan RI No. 0334/O/1995. Sejak saat itu, FMIPA terus berkembang dengan penambahan Jurusan Matematika dan Fisika pada 1999, Program Studi Ilmu Komputer/Sistem Komputer pada 2005.</string>
+
+</resources>

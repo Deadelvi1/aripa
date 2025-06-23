@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.aripa.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_chatbot_fragment"
+        android:name="com.example.aripa.ui.chatbot.ChatbotFragment"
+        android:label="Chatbot"
+        tools:layout="@layout/fragment_chatbot" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.aripa.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.aripa.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_fmipa_info"
+        android:name="com.example.aripa.ui.fmipainfo.FmipaInfo"
+        android:label="Tentang FMIPA"
+        tools:layout="@layout/fragment_fmipa_info" />
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.example.aripa.FaqFragment"
+        android:label="@string/faq_title"
+        tools:layout="@layout/fragment_faq" />
+    <fragment
+        android:id="@+id/nav_app_info"
+        android:name="com.example.aripa.ui.appinfo.AppInfo"
+        android:label="App Info"
+        tools:layout="@layout/fragment_app_info" /> </navigation>

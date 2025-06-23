@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF3399FF</color>
+    <color name="purple_500">#FF3399FF</color>
+    <color name="purple_700">#FF3399FF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="your_light_blue_header_bg">#E3F2FD</color>
+    <color name="faq_background">#F5F5F5</color>
+    <color name="card_background_light_blue">#E0F7FA</color>
+    <color name="icon_dark_blue">#00796B</color>
+    <color name="text_dark_blue">#212121</color>
+    <color name="search_bar_background">#E0E0E0</color>
+    <color name="icon_gray">#757575</color>
+    <color name="text_gray">#424242</color>
+    <color name="card_stroke">#E0E0E0</color>
+    <color name="page_background_light_blue">#EBF5FA</color>
+    <color name="aripa">#E3F2FD</color>
+    <color name="chatbot_header">#E3F2FD</color>
+</resources>

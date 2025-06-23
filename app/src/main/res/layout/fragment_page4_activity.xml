@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5EFFF"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- GUIDELINE Tengah -->
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="289dp"
+            android:layout_height="117dp"
+            android:contentDescription="Logo ARIPA"
+            android:src="@drawable/logo_wp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.144" />
+
+        <TextView
+            android:id="@+id/textViewPage4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Syarat &amp; Ketentuan Penggunaan dan Kebijakan Privasi merupakan ketentuan yang harus dibaca, dipahami, dan disetujui oleh Pengguna sebelum mengakses atau menggunakan aplikasi ARIPA Mobile.\nLihat selengkapnya di sini:"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.488" />
+
+        <Button
+            android:id="@+id/buttonStartMain"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#2196F3"
+            android:enabled="false"
+            android:text="MULAI"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.814" />
+
+        <TextView
+            android:id="@+id/termsLink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="• Syarat &amp; Ketentuan Penggunaan"
+            android:textColor="#2196F3"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.582" />
+
+        <CheckBox
+            android:id="@+id/agreeCheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="Dengan mencentang kotak persetujuan, Anda menerima segala isi Syarat &amp; Ketentuan Penggunaan dan Kebijakan Privasi"
+            android:textColor="#444444"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.666" />
+
+        <TextView
+            android:id="@+id/privacyLink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:text="• Kebijakan Privasi"
+            android:textColor="#2196F3"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.608" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="366dp" />
+
+        <!-- Logo -->
+
+        <!-- Judul -->
+
+        <!-- Paragraf -->
+
+        <!-- Link Syarat -->
+
+        <!-- Link Privasi -->
+
+        <!-- Checkbox -->
+
+        <!-- Tombol MULAI -->
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Syarat &amp; Ketentuan Penggunaan dan Kebijakan Privasi ARIPA Mobile"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.325" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

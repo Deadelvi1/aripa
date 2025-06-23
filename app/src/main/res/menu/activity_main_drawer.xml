@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_chatbot_fragment"
+            android:icon="@drawable/ic_chatbot" android:title="Chatbot" />
+    </group>
+
+    <item
+        android:id="@+id/nav_setting_parent" android:icon="@drawable/ic_setting"
+        android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_faq"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/nav_app_info"
+                android:icon="@drawable/ic_appinfo"
+                android:title="App info" />
+            <item
+                android:id="@+id/nav_fmipa_info"
+                android:icon="@drawable/ic_gedung"
+                android:title="Tentang FMIPA" />
+        </menu>
+    </item>
+
+</menu>
